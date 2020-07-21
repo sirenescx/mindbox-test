@@ -27,7 +27,7 @@ namespace Polygons
         /// <summary>
         /// Method to calculate area of the circle.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Double value of circle area.</returns>
         public double GetArea() => Math.PI * R * R;
     }
 }

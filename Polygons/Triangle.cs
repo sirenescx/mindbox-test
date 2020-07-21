@@ -61,7 +61,7 @@ namespace Polygons
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <param name="c"></param>
-        /// <returns></returns>
+        /// <returns>True if triangle with such sides exists, else – false.</returns>
         private static bool Exists(double a, double b, double c) => a + b > c && a + c > b && b + c > a;
 
         private bool CheckIfIsRight() =>
@@ -72,7 +72,7 @@ namespace Polygons
         /// <summary>
         /// Method to calculate area of triangle.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Double value of triangle area.</returns>
         public double GetArea()
         {
             if (IsRight)
