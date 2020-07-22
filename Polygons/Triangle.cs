@@ -18,12 +18,12 @@ namespace Polygons
         public double C { get; }
 
         /// <summary>
-        /// 
+        /// Field to store info about triangle rightness.
         /// </summary>
         private readonly Lazy<bool> _isRight;
 
         /// <summary>
-        /// 
+        /// Propery to get information if triangle is right or not.
         /// </summary>
         public bool IsRight => _isRight.Value;
 
