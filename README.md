@@ -1,13 +1,13 @@
-# Результаты выполнения задания
+# Results
 ## Polygons
-Содержит:
-* Интерфейс IPolygon общий для всех классов с методом для вычисления площади фигуры.
-* Класс Circle с реализацией метода вычисления площади и проверкой входных данных на отрицательность радиуса.
-* Класс Triangle с реализацией метода вычисления площади, метода для проверки треугольника на прямоугольность и проверкой входных данных на отрицательность сторон и вырожденности треугольника.
+Contains:
+* Interface IPolygon common for all classes with method for calculating figure area.
+* Class Circle with check for input data correctness. Implements method for calculating figure area.  
+* Class Triangle with check for input data correctness. Implements method for calculating figure area. Contains method for checking if triangle is right. 
 ## PolygonsTest
-Содержит юнит-тесты к классам Circle и Triangle, написанные с помощью фреймворка NUnit.
+Contains unit tests for classes Circle and Triangle (NUnit framework). 
 ## DatabaseTask.sql
-Содержит SQL-запрос.
+Contains SQL query.
 
-## Вопросы по заданию
-Было не слишком понятно, что имеется в виду под вычислением площади фигуры без знания типа фигуры, так как формат входных данных никак не описан. Предположу, что можно было бы создать класс Polygon, получающий в конструктор коллекцию пар координат фигуры.
+## Questions
+It was not obvious what was meaned by "calculating figure area without knowing area type", because format of input was not said. I suppose that we could create Polygon class with constructor in which collection of coordinates of figure will be passed as parameter. 
